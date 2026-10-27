@@ -5,36 +5,50 @@
 // Dados padrão iniciais caso não haja nada no localStorage
 const INITIAL_CANDIDATES = [
   {
-    id: "messi",
-    name: "Lionel Messi",
-    role: "Futebol • Inter Miami / Argentina",
-    image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=200&auto=format&fit=crop&q=80",
-    votes: 42
+    id: "neymar",
+    name: "Neymar Jr.",
+    role: "Futebol • Al-Hilal / Brasil",
+    image: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=200&auto=format&fit=crop&q=80",
+    votes: 47
   },
   {
-    id: "cr7",
-    name: "Cristiano Ronaldo",
-    role: "Futebol • Al-Nassr / Portugal",
-    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=200&auto=format&fit=crop&q=80",
-    votes: 38
+    id: "mbappe",
+    name: "Kylian Mbappé",
+    role: "Futebol • Real Madrid / França",
+    image: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=200&auto=format&fit=crop&q=80",
+    votes: 39
   },
   {
     id: "vinijr",
     name: "Vinicius Jr.",
     role: "Futebol • Real Madrid / Brasil",
     image: "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=200&auto=format&fit=crop&q=80",
-    votes: 35
+    votes: 31
+  },
+  {
+    id: "bellingham",
+    name: "Jude Bellingham",
+    role: "Futebol • Real Madrid / Inglaterra",
+    image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=200&auto=format&fit=crop&q=80",
+    votes: 24
+  },
+  {
+    id: "pedri",
+    name: "Pedri",
+    role: "Futebol • Barcelona / Espanha",
+    image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=200&auto=format&fit=crop&q=80",
+    votes: 18
   },
   {
     id: "haaland",
     name: "Erling Haaland",
     role: "Futebol • Man. City / Noruega",
     image: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=200&auto=format&fit=crop&q=80",
-    votes: 21
+    votes: 15
   }
 ];
 
-const STORAGE_KEY = 'melhor_do_mundo_candidates_v1';
+const STORAGE_KEY = 'melhor_do_mundo_candidates_v2';
 
 // Estado local
 let candidates = [];
@@ -243,7 +257,7 @@ function triggerLeaderCelebration() {
       particleCount: 80,
       spread: 70,
       origin: { y: 0.6 },
-      colors: ['#ffd700', '#f59e0b', '#ffffff', '#6366f1']
+      colors: ['#06efb4', '#a855f7', '#e879f9', '#c084fc', '#ffffff']
     });
   }
 }
